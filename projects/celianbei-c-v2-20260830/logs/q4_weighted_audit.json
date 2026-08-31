@@ -1,0 +1,134 @@
+{
+  "indicator_count": 8,
+  "diagnostic_indicator_count": 11,
+  "weights": {
+    "T": 0.25,
+    "B": 0.25,
+    "U": 0.15,
+    "H": 0.1,
+    "C": -0.08,
+    "D": -0.07,
+    "F": -0.06,
+    "R": -0.04
+  },
+  "normalized_indicators": {
+    "T": {
+      "actual": 0.34029571463556535,
+      "optimized": 0.21104054582522205
+    },
+    "B": {
+      "actual": 0.3517427911925883,
+      "optimized": 0.4570277323566927
+    },
+    "C": {
+      "actual": 0.7692307692307693,
+      "optimized": 0.5140669515669516
+    },
+    "D": {
+      "actual": 0.03443630295840648,
+      "optimized": 0.5837267862381598
+    },
+    "U": {
+      "actual": 0.47364430653926615,
+      "optimized": 0.4614361111111111
+    },
+    "H": {
+      "actual": 0.6697250563055767,
+      "optimized": 0.6396986111111111
+    },
+    "F": {
+      "actual": 0.8333333333333333,
+      "optimized": 0.16666666666666666
+    },
+    "R": {
+      "actual": 0.49946823384337,
+      "optimized": 0.41477673611111116
+    }
+  },
+  "shared_bounds": {
+    "T": [
+      2503120.0,
+      9458460.0
+    ],
+    "B": [
+      1855333.144179286,
+      8006620.02
+    ],
+    "C": [
+      0.5343055555555556,
+      0.9243055555555556
+    ],
+    "D_components": {
+      "distance_km": [
+        0.0,
+        4302.7
+      ],
+      "travel_time_hour": [
+        0.0,
+        7.6
+      ],
+      "timezone_diff": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "scores": {
+    "actual": 0.1771010459692012,
+    "optimized": 0.1916250467167847
+  },
+  "optimized_minus_actual": 0.014524000747583504,
+  "aggregation": {
+    "T_B_C": "per-match values normalized over the combined 48+72 records, then averaged",
+    "U_H_R": "official/proxy raw values already bounded to [0,1], then averaged",
+    "D": "two adjacent venue transitions per team; components jointly Min-Max normalized across both tournaments",
+    "F": "official schedule-level range formula"
+  },
+  "proxies": {
+    "U": "1-max(Elo/draw pre-match probabilities)",
+    "H": {
+      "method": "OLS bridge trained on official 72-match pre-match U and team attributes",
+      "coefficients": [
+        0.03166589588104753,
+        0.7033230279834146,
+        0.4100970749512584,
+        0.013831774634523564,
+        -0.03771596357660989
+      ],
+      "training_rmse": 0.008127454698357309,
+      "actual_range": [
+        0.5337138297780346,
+        0.789919818164057
+      ]
+    },
+    "C": "Qatar venue cost unavailable; fixed candidate-median match proxy plus 0.24930556 MUSD setup allocation",
+    "D": "Qatar venue-to-venue great-circle distance and 0.5 h + distance/60 km/h travel-time proxy; first-leg origin unavailable",
+    "R": "candidate median climate/security capability with observed occupancy, as in the 11-item diagnostic"
+  },
+  "sensitivity": {
+    "scenario_count": 81,
+    "frozen_bounds": true,
+    "optimized_minus_actual_range": [
+      -0.04047952378499578,
+      0.04542278770447991
+    ],
+    "ranking_flips_within_grid": true,
+    "minimum_difference_scenario": {
+      "cost_multiplier": 0.75,
+      "attractiveness_shift": 0.08,
+      "risk_shift": -0.1,
+      "actual_travel_speed_kmh": 80.0,
+      "actual_score": 0.2321045705017805,
+      "optimized_minus_actual": -0.04047952378499578
+    },
+    "maximum_difference_scenario": {
+      "cost_multiplier": 1.25,
+      "attractiveness_shift": -0.08,
+      "risk_shift": 0.1,
+      "actual_travel_speed_kmh": 40.0,
+      "actual_score": 0.1462022590123048,
+      "optimized_minus_actual": 0.04542278770447991
+    }
+  },
+  "claim_boundary": "weighted score is a disclosed proxy comparison, not causal evidence or a proof of real-world superiority"
+}

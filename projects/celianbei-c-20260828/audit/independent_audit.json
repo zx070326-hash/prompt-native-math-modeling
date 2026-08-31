@@ -1,0 +1,521 @@
+{
+  "scope": {
+    "root": "D:\\prompt-native-math-modeling\\prompt-native-v2\\projects\\celianbei-c-20260828",
+    "workbook_sha256": "23eecb09565bb064da8e4753933b88fe9d882d3b92f0c23574bb2aebdc530907",
+    "solver_imported": false,
+    "solver_audit_trusted": false
+  },
+  "reproduction": {
+    "actual_schedule.csv": {
+      "original_rows": 48,
+      "replay_rows": 48,
+      "exact_sha256": true,
+      "original_sha256": "a23cc5c16fc3db0e931c5e1ec9c05ca5cfaef1cd3cc9031343176f2aa8fa1822",
+      "replay_sha256": "a23cc5c16fc3db0e931c5e1ec9c05ca5cfaef1cd3cc9031343176f2aa8fa1822",
+      "columns_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "all_text_fields_equal": true
+    },
+    "result_1_match_prediction.csv": {
+      "original_rows": 72,
+      "replay_rows": 72,
+      "exact_sha256": false,
+      "original_sha256": "e04f372b482a12ee33e31187a210adb5582acdd7503412ac825a9129b7c89464",
+      "replay_sha256": "a506b537d198fae46c5134fc11f934b9fe777c072473d26b3041260cb821c087",
+      "columns_exact": true,
+      "max_abs_numeric_difference": 8.940696716308594e-08,
+      "all_text_fields_equal": true
+    },
+    "result_1_test_prediction.csv": {
+      "original_rows": 140,
+      "replay_rows": 140,
+      "exact_sha256": false,
+      "original_sha256": "0e0c7a61e039917445e9d2f14dc1bf2b456b64da346b176571a0d705b7af5a31",
+      "replay_sha256": "e7cc7c54c6a7af40af0d3033656bfe7f746c87e0d2cac76c52f7874c5bc4c20c",
+      "columns_exact": true,
+      "max_abs_numeric_difference": 1.1368683772161603e-13,
+      "all_text_fields_equal": true
+    },
+    "result_2_group_schedule.csv": {
+      "original_rows": 72,
+      "replay_rows": 72,
+      "exact_sha256": true,
+      "original_sha256": "1a8782dea5f75a67a6427097aeaa8ada60af72700f2c85e1cc0f368ad59823c8",
+      "replay_sha256": "1a8782dea5f75a67a6427097aeaa8ada60af72700f2c85e1cc0f368ad59823c8",
+      "columns_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "all_text_fields_equal": true
+    },
+    "result_3_dynamic_strategy.csv": {
+      "original_rows": 24,
+      "replay_rows": 24,
+      "exact_sha256": false,
+      "original_sha256": "69c91b19382ba9253aa1f18796947ce938eebf998f5245666ba72d9fe95c2849",
+      "replay_sha256": "7c081f7262b7fb49d2f6c8088371c9970d29c12078211a7c30544b3bf0b92cf4",
+      "columns_exact": true,
+      "max_abs_numeric_difference": 5.960464477539063e-08,
+      "all_text_fields_equal": true
+    },
+    "result_4_schedule_comparison.csv": {
+      "original_rows": 5,
+      "replay_rows": 5,
+      "exact_sha256": true,
+      "original_sha256": "e50282c0e522e130b0865313ebcc27b61fd8ecbd2ea7202ac59cb24734501577",
+      "replay_sha256": "e50282c0e522e130b0865313ebcc27b61fd8ecbd2ea7202ac59cb24734501577",
+      "columns_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "all_text_fields_equal": true
+    }
+  },
+  "q1": {
+    "contracts": {
+      "test": {
+        "columns_exact": true,
+        "expected_columns": [
+          "match_id_test",
+          "predicted_test_tv_viewers"
+        ],
+        "actual_columns": [
+          "match_id_test",
+          "predicted_test_tv_viewers"
+        ],
+        "rows": 140,
+        "duplicate_rows": 0
+      },
+      "group": {
+        "columns_exact": true,
+        "expected_columns": [
+          "match_id",
+          "team_a",
+          "team_b",
+          "predicted_tv_viewers"
+        ],
+        "actual_columns": [
+          "match_id",
+          "team_a",
+          "team_b",
+          "predicted_tv_viewers"
+        ],
+        "rows": 72,
+        "duplicate_rows": 0
+      }
+    },
+    "test_ids_exact": true,
+    "group_ids_exact": true,
+    "group_teams_exact": true,
+    "predictions_finite_positive": true,
+    "train_target_million": {
+      "count": 560,
+      "min": 93.963404,
+      "q25": 128.42781875,
+      "median": 142.1088905,
+      "mean": 145.64307065892856,
+      "q75": 160.61750625000002,
+      "max": 225.413883
+    },
+    "hidden_test_prediction_million": {
+      "count": 140,
+      "min": 116.26936914302372,
+      "q25": 131.51513229262912,
+      "median": 142.52323417522854,
+      "mean": 144.94420215836104,
+      "q75": 157.90496061188318,
+      "max": 190.44805176447147
+    },
+    "group_prediction_million": {
+      "count": 72,
+      "min": 162.96421738268097,
+      "q25": 165.98452169695588,
+      "median": 171.3261486686048,
+      "mean": 176.58585123722625,
+      "q75": 185.4059697833893,
+      "max": 200.88925756216662
+    },
+    "hidden_test_labels_available": false,
+    "interpretation": "Reported MSE/MAE/R2 are temporal holdout validation metrics, not the organizer's hidden-test score."
+  },
+  "q2": {
+    "contract": {
+      "columns_exact": true,
+      "expected_columns": [
+        "match_id",
+        "group_id",
+        "round_in_group",
+        "team_a",
+        "team_b",
+        "venue_id",
+        "slot_id",
+        "city",
+        "country",
+        "reference_date",
+        "reference_kickoff_time",
+        "local_datetime",
+        "utc_datetime",
+        "required_security_level",
+        "expected_attendance",
+        "expected_tv_viewers",
+        "ticket_revenue_usd",
+        "broadcast_value_usd",
+        "travel_cost_index",
+        "fairness_penalty",
+        "risk_index",
+        "total_objective_value"
+      ],
+      "actual_columns": [
+        "match_id",
+        "group_id",
+        "round_in_group",
+        "team_a",
+        "team_b",
+        "venue_id",
+        "slot_id",
+        "city",
+        "country",
+        "reference_date",
+        "reference_kickoff_time",
+        "local_datetime",
+        "utc_datetime",
+        "required_security_level",
+        "expected_attendance",
+        "expected_tv_viewers",
+        "ticket_revenue_usd",
+        "broadcast_value_usd",
+        "travel_cost_index",
+        "fairness_penalty",
+        "risk_index",
+        "total_objective_value"
+      ],
+      "rows": 72,
+      "duplicate_rows": 0
+    },
+    "match_count_72": true,
+    "unique_match_ids": true,
+    "match_metadata_exact": true,
+    "known_venues_and_slots": true,
+    "slot_datetime_exact": true,
+    "local_datetime_converts_to_utc": true,
+    "venue_utc_conflicts": 0,
+    "round_order_correct": true,
+    "min_rest_hours": 63.0,
+    "rest_ge_60": true,
+    "local_date_daily_venue_excess": 0,
+    "venue_total_min_excess": 0,
+    "venue_total_max_excess": 0,
+    "security_eligibility_violations": 0,
+    "slot_id_broadcast_capacity_excess": 0,
+    "same_utc_broadcast_capacity_excess": 0,
+    "gold_slot_definition": {
+      "slot_count": 20,
+      "score_cutoff": 0.67
+    },
+    "gold_count_range": 2,
+    "gold_fairness_le_2": true,
+    "third_round_high_security_daily_excess": 0,
+    "total_objective_only_first_row": true,
+    "cost_normalization_audit": {
+      "candidate_bound_uses_full_setup_cost": [
+        1.1549999999999998,
+        2.145
+      ],
+      "selected_cost_allocates_setup_over_venue_matches": [
+        0.44499999999999995,
+        1.27
+      ],
+      "normalized_cost_range": [
+        -0.7171717171717169,
+        0.11616161616161635
+      ],
+      "selected_rows_below_candidate_min": 67,
+      "reported_objective": 21.582067,
+      "objective_if_negative_cost_norm_only_is_clipped_to_zero": 19.262067000000002,
+      "unearned_bonus_from_negative_cost_norm": 2.3199999999999967,
+      "same_cost_basis": false
+    },
+    "travel_formula_audit": {
+      "component_candidate_bounds": {
+        "distance_km": [
+          14.5,
+          16926.3
+        ],
+        "travel_time_hour": [
+          2.0,
+          24.3
+        ],
+        "timezone_diff": [
+          0.0,
+          19.9
+        ]
+      },
+      "reported_vs_statement_mae": 0.07741915589465018,
+      "reported_vs_statement_max_abs": 0.27296247027924014,
+      "reported_vs_statement_correlation": 0.9973813625900736,
+      "reported_range": [
+        0.014093,
+        0.989359
+      ],
+      "statement_formula_range": [
+        0.08207500556953116,
+        0.7163965297207598
+      ],
+      "formula_match": false
+    },
+    "global_optimality_certificate_present": false
+  },
+  "q3": {
+    "contract": {
+      "columns_exact": true,
+      "expected_columns": [
+        "match_id",
+        "group_id",
+        "team_a",
+        "team_b",
+        "updated_p_team_a_advance",
+        "updated_p_team_b_advance",
+        "updated_expected_attendance",
+        "updated_expected_tv_viewers",
+        "stakeless_risk",
+        "collusion_risk",
+        "updated_attractiveness",
+        "recommended_broadcast_priority",
+        "recommended_security_level",
+        "recommended_transport_level",
+        "recommended_ticket_adjustment",
+        "updated_ticket_revenue_usd",
+        "updated_broadcast_value_usd",
+        "resource_cost_index",
+        "risk_exposure_index",
+        "static_net_value",
+        "dynamic_net_value",
+        "improvement_rate"
+      ],
+      "actual_columns": [
+        "match_id",
+        "group_id",
+        "team_a",
+        "team_b",
+        "updated_p_team_a_advance",
+        "updated_p_team_b_advance",
+        "updated_expected_attendance",
+        "updated_expected_tv_viewers",
+        "stakeless_risk",
+        "collusion_risk",
+        "updated_attractiveness",
+        "recommended_broadcast_priority",
+        "recommended_security_level",
+        "recommended_transport_level",
+        "recommended_ticket_adjustment",
+        "updated_ticket_revenue_usd",
+        "updated_broadcast_value_usd",
+        "resource_cost_index",
+        "risk_exposure_index",
+        "static_net_value",
+        "dynamic_net_value",
+        "improvement_rate"
+      ],
+      "rows": 24,
+      "duplicate_rows": 0
+    },
+    "match_count_24": true,
+    "third_round_ids_exact": true,
+    "probabilities_within_0_1": true,
+    "team_state_count": 48,
+    "advancement_probability_sum": 32.0,
+    "expected_advancement_probability_sum": 32.0,
+    "resource_levels_in_domain": true,
+    "minimum_and_venue_security_satisfied": true,
+    "ticket_adjustments_within_daily_bounds": true,
+    "updated_attendance_within_venue_capacity": true,
+    "resource_cost_recomputed_exact": true,
+    "daily_resource_checks": {
+      "2026-06-23": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 3,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 3,
+        "budget": 85.0,
+        "budget_limit": 100.0,
+        "passes": true
+      },
+      "2026-06-24": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 2,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 3,
+        "budget": 54.0,
+        "budget_limit": 100.0,
+        "passes": true
+      },
+      "2026-06-25": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 2,
+        "enhanced_transport": 2,
+        "enhanced_transport_limit": 3,
+        "budget": 49.0,
+        "budget_limit": 100.0,
+        "passes": true
+      },
+      "2026-06-26": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 0,
+        "high_security_limit": 2,
+        "enhanced_transport": 2,
+        "enhanced_transport_limit": 3,
+        "budget": 41.0,
+        "budget_limit": 100.0,
+        "passes": true
+      },
+      "2026-06-27": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 4,
+        "high_security": 2,
+        "high_security_limit": 3,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 4,
+        "budget": 54.0,
+        "budget_limit": 120.0,
+        "passes": true
+      },
+      "2026-06-28": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 4,
+        "high_security": 2,
+        "high_security_limit": 3,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 4,
+        "budget": 54.0,
+        "budget_limit": 120.0,
+        "passes": true
+      },
+      "2026-06-29": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 2,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 3,
+        "budget": 56.0,
+        "budget_limit": 100.0,
+        "passes": true
+      }
+    },
+    "all_daily_resource_checks_pass": true,
+    "dynamic_total_net": 7.883197356706405,
+    "static_total_net": 7.967811637314074,
+    "dynamic_minus_static": -0.08461428060766885,
+    "dynamic_dominates_static_baseline": false,
+    "matches_dynamic_better": 5,
+    "matches_dynamic_worse": 3,
+    "mean_rowwise_improvement_rate": 0.014460075739188819,
+    "interpretation": "The static resource decisions are feasible candidates in the updated environment. A valid dynamic maximizer should therefore not have a lower total objective."
+  },
+  "q4": {
+    "contracts": {
+      "actual": {
+        "columns_exact": true,
+        "expected_columns": [
+          "match_id",
+          "competition",
+          "stage",
+          "group_id",
+          "round_in_group",
+          "team_a",
+          "team_b",
+          "venue",
+          "city",
+          "country",
+          "date",
+          "local_kickoff_time",
+          "utc_datetime",
+          "goals_a",
+          "goals_b",
+          "source_url",
+          "retrieval_date"
+        ],
+        "actual_columns": [
+          "match_id",
+          "competition",
+          "stage",
+          "group_id",
+          "round_in_group",
+          "team_a",
+          "team_b",
+          "venue",
+          "city",
+          "country",
+          "date",
+          "local_kickoff_time",
+          "utc_datetime",
+          "goals_a",
+          "goals_b",
+          "source_url",
+          "retrieval_date"
+        ],
+        "rows": 48,
+        "duplicate_rows": 0
+      },
+      "comparison": {
+        "columns_exact": true,
+        "expected_columns": [
+          "indicator_name",
+          "indicator_category",
+          "actual_schedule_value",
+          "optimized_schedule_value",
+          "absolute_difference",
+          "relative_improvement",
+          "preferred_direction",
+          "evaluation_result"
+        ],
+        "actual_columns": [
+          "indicator_name",
+          "indicator_category",
+          "actual_schedule_value",
+          "optimized_schedule_value",
+          "absolute_difference",
+          "relative_improvement",
+          "preferred_direction",
+          "evaluation_result"
+        ],
+        "rows": 5,
+        "duplicate_rows": 0
+      }
+    },
+    "actual_schedule_rows": 48,
+    "actual_match_ids_unique": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+    ],
+    "unique_local_kickoff_times": [
+      "18:00"
+    ],
+    "comparison_indicator_count": 5,
+    "comparison_indicators": [
+      "平均休息时间(h)",
+      "最短休息时间(h)",
+      "场馆利用率(场/场馆)",
+      "容量匹配(代理)",
+      "黄金时段覆盖率(代理)"
+    ],
+    "problem_requested_indicator_families": [
+      "travel_distance",
+      "rest_time",
+      "timezone_crossings",
+      "venue_utilization",
+      "capacity_matching",
+      "prime_time",
+      "expected_audience",
+      "ticket_and_broadcast_value",
+      "fairness",
+      "risk"
+    ],
+    "uses_same_q2_composite_objective_weights": false,
+    "substantive_completion": false,
+    "interpretation": "The run downloaded a public 2022 schedule, but used a common 18:00 proxy and only five coarse indicators rather than the Q2 indicator system and weights."
+  }
+}

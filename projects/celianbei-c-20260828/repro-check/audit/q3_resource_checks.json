@@ -1,0 +1,72 @@
+{
+  "2026-06-23": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 3,
+    "high_security": 2,
+    "high_security_limit": 3,
+    "enhanced_transport": 3,
+    "enhanced_transport_limit": 3,
+    "budget": 85.0,
+    "budget_limit": 100.0
+  },
+  "2026-06-24": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 3,
+    "high_security": 2,
+    "high_security_limit": 2,
+    "enhanced_transport": 3,
+    "enhanced_transport_limit": 3,
+    "budget": 54.0,
+    "budget_limit": 100.0
+  },
+  "2026-06-25": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 3,
+    "high_security": 2,
+    "high_security_limit": 2,
+    "enhanced_transport": 2,
+    "enhanced_transport_limit": 3,
+    "budget": 49.0,
+    "budget_limit": 100.0
+  },
+  "2026-06-26": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 3,
+    "high_security": 0,
+    "high_security_limit": 2,
+    "enhanced_transport": 2,
+    "enhanced_transport_limit": 3,
+    "budget": 41.0,
+    "budget_limit": 100.0
+  },
+  "2026-06-27": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 4,
+    "high_security": 2,
+    "high_security_limit": 3,
+    "enhanced_transport": 3,
+    "enhanced_transport_limit": 4,
+    "budget": 54.0,
+    "budget_limit": 120.0
+  },
+  "2026-06-28": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 4,
+    "high_security": 2,
+    "high_security_limit": 3,
+    "enhanced_transport": 3,
+    "enhanced_transport_limit": 4,
+    "budget": 54.0,
+    "budget_limit": 120.0
+  },
+  "2026-06-29": {
+    "high_broadcast": 3,
+    "high_broadcast_limit": 3,
+    "high_security": 2,
+    "high_security_limit": 2,
+    "enhanced_transport": 3,
+    "enhanced_transport_limit": 3,
+    "budget": 56.0,
+    "budget_limit": 100.0
+  }
+}

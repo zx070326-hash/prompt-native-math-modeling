@@ -1,0 +1,13 @@
+# Rebuildable execution caches and local environments
+**/__pycache__/
+*.py[cod]
+**/tmp/
+**/.venv/
+**/node_modules/
+*.joblib
+*.log
+
+# Generated delivery bundles and large binary inputs stay local
+**/*.zip
+**/*.pdf
+**/*.xlsx

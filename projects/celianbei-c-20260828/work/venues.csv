@@ -1,0 +1,17 @@
+﻿venue_id,city,country,capacity,latitude,longitude,timezone,max_matches_per_day,min_total_matches,max_total_matches,setup_cost_musd,operation_cost_musd_per_match,security_level,security_cost_index,climate_risk,transport_index
+V01,Atlanta,United States,71000,33.755,-84.4,America/New_York,1,2,8,1.2,0.195,3,0.9,0.17,0.87
+V02,Boston,United States,65878,42.091,-71.264,America/New_York,1,2,8,1.12,0.21,3,0.95,0.14,0.8
+V03,Dallas,United States,94000,32.748,-97.093,America/Chicago,2,2,8,1.35,0.225,4,1.0,0.2,0.84
+V04,Guadalajara,Mexico,48071,20.681,-103.462,America/Mexico_City,1,2,8,0.83,0.24,3,0.85,0.11,0.72
+V05,Houston,United States,72220,29.684,-95.411,America/Chicago,1,2,8,1.15,0.255,3,0.9,0.24,0.82
+V06,Kansas City,United States,76416,39.049,-94.484,America/Chicago,1,2,8,1.05,0.27,2,0.95,0.18,0.76
+V07,Los Angeles,United States,70240,33.953,-118.339,America/Los_Angeles,2,2,8,1.32,0.285,4,1.0,0.12,0.91
+V08,Mexico City,Mexico,87523,19.303,-99.15,America/Mexico_City,2,2,8,1.08,0.3,4,0.85,0.15,0.86
+V09,Miami,United States,64767,25.958,-80.239,America/New_York,1,2,8,1.22,0.315,4,0.9,0.26,0.88
+V10,Monterrey,Mexico,53500,25.668,-100.244,America/Monterrey,1,2,8,0.86,0.33,3,0.95,0.16,0.74
+V11,New York/New Jersey,United States,82500,40.813,-74.074,America/New_York,2,2,8,1.4,0.345,4,1.0,0.13,0.94
+V12,Philadelphia,United States,69596,39.901,-75.168,America/New_York,1,2,8,1.16,0.36,3,0.85,0.12,0.84
+V13,San Francisco Bay Area,United States,68500,37.403,-121.97,America/Los_Angeles,1,2,8,1.25,0.375,3,0.9,0.1,0.89
+V14,Seattle,United States,69000,47.595,-122.331,America/Los_Angeles,1,2,8,1.1,0.39,3,0.95,0.18,0.85
+V15,Toronto,Canada,45500,43.633,-79.419,America/Toronto,1,2,8,0.92,0.405,3,1.0,0.14,0.82
+V16,Vancouver,Canada,54500,49.276,-123.112,America/Vancouver,1,2,8,0.94,0.42,3,0.85,0.16,0.83

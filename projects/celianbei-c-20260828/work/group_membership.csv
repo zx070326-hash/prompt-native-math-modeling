@@ -1,0 +1,49 @@
+﻿group_id,team_id,team_name,pot
+A,T16,Mexico,1
+A,T40,South Africa,2
+A,T24,South Korea,3
+A,T34,Czechia,4
+B,T30,Canada,1
+B,T37,Bosnia and Herzegovina,2
+B,T38,Qatar,3
+B,T13,Switzerland,4
+C,T05,Brazil,1
+C,T14,Morocco,2
+C,T47,Haiti,3
+C,T29,Scotland,4
+D,T15,United States,1
+D,T25,Paraguay,2
+D,T27,Australia,3
+D,T23,Turkey,4
+E,T09,Germany,1
+E,T48,Curacao,2
+E,T26,Ivory Coast,3
+E,T20,Ecuador,4
+F,T07,Netherlands,1
+F,T17,Japan,2
+F,T21,Sweden,3
+F,T36,Tunisia,4
+G,T08,Belgium,1
+G,T32,Egypt,2
+G,T28,Iran,3
+G,T46,New Zealand,4
+H,T03,Spain,1
+H,T41,Cape Verde,2
+H,T35,Saudi Arabia,3
+H,T11,Uruguay,4
+I,T02,France,1
+I,T18,Senegal,2
+I,T43,Iraq,3
+I,T22,Norway,4
+J,T01,Argentina,1
+J,T31,Algeria,2
+J,T19,Austria,3
+J,T42,Jordan,4
+K,T06,Portugal,1
+K,T44,DR Congo,2
+K,T39,Uzbekistan,3
+K,T12,Colombia,4
+L,T04,England,1
+L,T10,Croatia,2
+L,T33,Ghana,3
+L,T45,Panama,4

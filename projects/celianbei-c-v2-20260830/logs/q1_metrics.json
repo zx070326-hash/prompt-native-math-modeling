@@ -1,0 +1,230 @@
+{
+  "seed": 20260830,
+  "target_unit": "million viewers",
+  "forbidden_post_match_features": [
+    "goals",
+    "xg",
+    "shots",
+    "possession",
+    "attendance"
+  ],
+  "fold_records": [
+    {
+      "fold": 1,
+      "model": "ridge",
+      "n_train": 95,
+      "n_valid": 93,
+      "valid_start": "2019-02-03",
+      "valid_end": "2020-03-29",
+      "mse_million2": 346.02923528230855
+    },
+    {
+      "fold": 1,
+      "model": "extra_trees",
+      "n_train": 95,
+      "n_valid": 93,
+      "valid_start": "2019-02-03",
+      "valid_end": "2020-03-29",
+      "mse_million2": 294.6453975904351
+    },
+    {
+      "fold": 1,
+      "model": "random_forest",
+      "n_train": 95,
+      "n_valid": 93,
+      "valid_start": "2019-02-03",
+      "valid_end": "2020-03-29",
+      "mse_million2": 286.32922832922145
+    },
+    {
+      "fold": 1,
+      "model": "hist_gradient",
+      "n_train": 95,
+      "n_valid": 93,
+      "valid_start": "2019-02-03",
+      "valid_end": "2020-03-29",
+      "mse_million2": 284.29146690124776
+    },
+    {
+      "fold": 2,
+      "model": "ridge",
+      "n_train": 188,
+      "n_valid": 93,
+      "valid_start": "2020-04-04",
+      "valid_end": "2021-04-19",
+      "mse_million2": 289.52389420201564
+    },
+    {
+      "fold": 2,
+      "model": "extra_trees",
+      "n_train": 188,
+      "n_valid": 93,
+      "valid_start": "2020-04-04",
+      "valid_end": "2021-04-19",
+      "mse_million2": 283.97069332229154
+    },
+    {
+      "fold": 2,
+      "model": "random_forest",
+      "n_train": 188,
+      "n_valid": 93,
+      "valid_start": "2020-04-04",
+      "valid_end": "2021-04-19",
+      "mse_million2": 309.62484613344117
+    },
+    {
+      "fold": 2,
+      "model": "hist_gradient",
+      "n_train": 188,
+      "n_valid": 93,
+      "valid_start": "2020-04-04",
+      "valid_end": "2021-04-19",
+      "mse_million2": 442.68532456771936
+    },
+    {
+      "fold": 3,
+      "model": "ridge",
+      "n_train": 281,
+      "n_valid": 93,
+      "valid_start": "2021-04-22",
+      "valid_end": "2022-07-03",
+      "mse_million2": 241.72743527897492
+    },
+    {
+      "fold": 3,
+      "model": "extra_trees",
+      "n_train": 281,
+      "n_valid": 93,
+      "valid_start": "2021-04-22",
+      "valid_end": "2022-07-03",
+      "mse_million2": 249.475725974745
+    },
+    {
+      "fold": 3,
+      "model": "random_forest",
+      "n_train": 281,
+      "n_valid": 93,
+      "valid_start": "2021-04-22",
+      "valid_end": "2022-07-03",
+      "mse_million2": 239.25153672481613
+    },
+    {
+      "fold": 3,
+      "model": "hist_gradient",
+      "n_train": 281,
+      "n_valid": 93,
+      "valid_start": "2021-04-22",
+      "valid_end": "2022-07-03",
+      "mse_million2": 284.4165242039666
+    },
+    {
+      "fold": 4,
+      "model": "ridge",
+      "n_train": 374,
+      "n_valid": 93,
+      "valid_start": "2022-07-05",
+      "valid_end": "2023-07-28",
+      "mse_million2": 221.00343681086116
+    },
+    {
+      "fold": 4,
+      "model": "extra_trees",
+      "n_train": 374,
+      "n_valid": 93,
+      "valid_start": "2022-07-05",
+      "valid_end": "2023-07-28",
+      "mse_million2": 253.52683696615384
+    },
+    {
+      "fold": 4,
+      "model": "random_forest",
+      "n_train": 374,
+      "n_valid": 93,
+      "valid_start": "2022-07-05",
+      "valid_end": "2023-07-28",
+      "mse_million2": 234.59031597007467
+    },
+    {
+      "fold": 4,
+      "model": "hist_gradient",
+      "n_train": 374,
+      "n_valid": 93,
+      "valid_start": "2022-07-05",
+      "valid_end": "2023-07-28",
+      "mse_million2": 298.82619569483035
+    },
+    {
+      "fold": 5,
+      "model": "ridge",
+      "n_train": 467,
+      "n_valid": 93,
+      "valid_start": "2023-07-29",
+      "valid_end": "2024-07-27",
+      "mse_million2": 175.30570704195685
+    },
+    {
+      "fold": 5,
+      "model": "extra_trees",
+      "n_train": 467,
+      "n_valid": 93,
+      "valid_start": "2023-07-29",
+      "valid_end": "2024-07-27",
+      "mse_million2": 198.47532837323814
+    },
+    {
+      "fold": 5,
+      "model": "random_forest",
+      "n_train": 467,
+      "n_valid": 93,
+      "valid_start": "2023-07-29",
+      "valid_end": "2024-07-27",
+      "mse_million2": 210.0891337422283
+    },
+    {
+      "fold": 5,
+      "model": "hist_gradient",
+      "n_train": 467,
+      "n_valid": 93,
+      "valid_start": "2023-07-29",
+      "valid_end": "2024-07-27",
+      "mse_million2": 230.58809344816376
+    }
+  ],
+  "oof_rows": 465,
+  "oof_mse_by_model_million2": {
+    "ridge": 254.71794172322342,
+    "extra_trees": 256.0187964453727,
+    "random_forest": 255.97701217995638,
+    "hist_gradient": 308.1615209631856
+  },
+  "ensemble_weights": {
+    "ridge": 0.487684115849902,
+    "extra_trees": 0.27050410354907395,
+    "random_forest": 0.24181178060102407,
+    "hist_gradient": 0.0
+  },
+  "ensemble_oof_mse_million2": 243.50815071698582,
+  "ensemble_oof_rmse_million": 15.604747697959933,
+  "train_rows": 560,
+  "test_rows": 140,
+  "train_date_range": [
+    "2018-01-12",
+    "2024-07-27"
+  ],
+  "test_date_range": [
+    "2024-08-05",
+    "2025-12-28"
+  ],
+  "train_target_mean_million": 145.64307065892856,
+  "train_target_std_million": 23.55893203897418,
+  "test_prediction_range_million": [
+    113.168293467427,
+    188.04082292494505
+  ],
+  "group_prediction_range_people": [
+    149924516,
+    198544722
+  ],
+  "test_output": "outputs\\result_1_test_prediction.csv",
+  "group_output": "outputs\\result_1_match_prediction.csv"
+}

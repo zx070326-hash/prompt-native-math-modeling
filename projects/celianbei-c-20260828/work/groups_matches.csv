@@ -1,0 +1,73 @@
+﻿match_id,group_id,round_in_group,team_a_id,team_a,team_b_id,team_b
+GA01,A,1,T16,Mexico,T40,South Africa
+GA02,A,1,T24,South Korea,T34,Czechia
+GA03,A,2,T16,Mexico,T24,South Korea
+GA04,A,2,T40,South Africa,T34,Czechia
+GA05,A,3,T16,Mexico,T34,Czechia
+GA06,A,3,T40,South Africa,T24,South Korea
+GB01,B,1,T30,Canada,T37,Bosnia and Herzegovina
+GB02,B,1,T38,Qatar,T13,Switzerland
+GB03,B,2,T30,Canada,T38,Qatar
+GB04,B,2,T37,Bosnia and Herzegovina,T13,Switzerland
+GB05,B,3,T30,Canada,T13,Switzerland
+GB06,B,3,T37,Bosnia and Herzegovina,T38,Qatar
+GC01,C,1,T05,Brazil,T14,Morocco
+GC02,C,1,T47,Haiti,T29,Scotland
+GC03,C,2,T05,Brazil,T47,Haiti
+GC04,C,2,T14,Morocco,T29,Scotland
+GC05,C,3,T05,Brazil,T29,Scotland
+GC06,C,3,T14,Morocco,T47,Haiti
+GD01,D,1,T15,United States,T25,Paraguay
+GD02,D,1,T27,Australia,T23,Turkey
+GD03,D,2,T15,United States,T27,Australia
+GD04,D,2,T25,Paraguay,T23,Turkey
+GD05,D,3,T15,United States,T23,Turkey
+GD06,D,3,T25,Paraguay,T27,Australia
+GE01,E,1,T09,Germany,T48,Curacao
+GE02,E,1,T26,Ivory Coast,T20,Ecuador
+GE03,E,2,T09,Germany,T26,Ivory Coast
+GE04,E,2,T48,Curacao,T20,Ecuador
+GE05,E,3,T09,Germany,T20,Ecuador
+GE06,E,3,T48,Curacao,T26,Ivory Coast
+GF01,F,1,T07,Netherlands,T17,Japan
+GF02,F,1,T21,Sweden,T36,Tunisia
+GF03,F,2,T07,Netherlands,T21,Sweden
+GF04,F,2,T17,Japan,T36,Tunisia
+GF05,F,3,T07,Netherlands,T36,Tunisia
+GF06,F,3,T17,Japan,T21,Sweden
+GG01,G,1,T08,Belgium,T32,Egypt
+GG02,G,1,T28,Iran,T46,New Zealand
+GG03,G,2,T08,Belgium,T28,Iran
+GG04,G,2,T32,Egypt,T46,New Zealand
+GG05,G,3,T08,Belgium,T46,New Zealand
+GG06,G,3,T32,Egypt,T28,Iran
+GH01,H,1,T03,Spain,T41,Cape Verde
+GH02,H,1,T35,Saudi Arabia,T11,Uruguay
+GH03,H,2,T03,Spain,T35,Saudi Arabia
+GH04,H,2,T41,Cape Verde,T11,Uruguay
+GH05,H,3,T03,Spain,T11,Uruguay
+GH06,H,3,T41,Cape Verde,T35,Saudi Arabia
+GI01,I,1,T02,France,T18,Senegal
+GI02,I,1,T43,Iraq,T22,Norway
+GI03,I,2,T02,France,T43,Iraq
+GI04,I,2,T18,Senegal,T22,Norway
+GI05,I,3,T02,France,T22,Norway
+GI06,I,3,T18,Senegal,T43,Iraq
+GJ01,J,1,T01,Argentina,T31,Algeria
+GJ02,J,1,T19,Austria,T42,Jordan
+GJ03,J,2,T01,Argentina,T19,Austria
+GJ04,J,2,T31,Algeria,T42,Jordan
+GJ05,J,3,T01,Argentina,T42,Jordan
+GJ06,J,3,T31,Algeria,T19,Austria
+GK01,K,1,T06,Portugal,T44,DR Congo
+GK02,K,1,T39,Uzbekistan,T12,Colombia
+GK03,K,2,T06,Portugal,T39,Uzbekistan
+GK04,K,2,T44,DR Congo,T12,Colombia
+GK05,K,3,T06,Portugal,T12,Colombia
+GK06,K,3,T44,DR Congo,T39,Uzbekistan
+GL01,L,1,T04,England,T10,Croatia
+GL02,L,1,T33,Ghana,T45,Panama
+GL03,L,2,T04,England,T33,Ghana
+GL04,L,2,T10,Croatia,T45,Panama
+GL05,L,3,T04,England,T45,Panama
+GL06,L,3,T10,Croatia,T33,Ghana

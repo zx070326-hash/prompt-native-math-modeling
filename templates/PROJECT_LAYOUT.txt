@@ -1,0 +1,28 @@
+project/（仅在任务规模和用户交付需要时建立；不要预建空目录）
+├── input/
+│   ├── problem.md
+│   ├── attachments/
+│   └── preferences.md
+├── research/
+│   ├── context.md
+│   ├── researchers/
+│   ├── problem_frames/
+│   ├── models/
+│   ├── experiments/
+│   ├── evidence/
+│   ├── counterexamples/
+│   ├── failures/
+│   └── conflicts/
+├── final/
+│   ├── paper.pdf
+│   ├── paper.tex
+│   ├── code/
+│   ├── figures/
+│   └── data/
+├── audit/
+│   ├── reviews/（仅在独立审查实际被接纳时创建）
+│   ├── completion-report.md
+│   ├── verification-report.md
+│   ├── limitations.md
+│   └── reproducibility.md
+└── completion.json（可选；优先用人类可读报告）

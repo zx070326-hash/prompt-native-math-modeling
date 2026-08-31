@@ -1,0 +1,58 @@
+{
+  "Ahmad Bin Ali Stadium": {
+    "lat": 25.3296917,
+    "lon": 51.3423218,
+    "display_name": "ملعب أحمد بن علي, شارع 1755, الريان, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Ahmad+Bin+Ali+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Al Bayt Stadium": {
+    "lat": 25.6521339,
+    "lon": 51.4878055,
+    "display_name": "استاد البيت, شارع 391, الخور, الخور والذخيرة, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Al+Bayt+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Al Janoub Stadium": {
+    "lat": 25.1597079,
+    "lon": 51.5742271,
+    "display_name": "استاد الجنوب, شارع 531, الوكرة, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Al+Janoub+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Al Thumama Stadium": {
+    "lat": 25.2353106,
+    "lon": 51.5329152,
+    "display_name": "استاد الثمامة, الطريق الدائري الخامس, الدوحة, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Al+Thumama+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Education City Stadium": {
+    "lat": 25.3108533,
+    "lon": 51.4244477,
+    "display_name": "استاد المدينة التعليمية, شارع 2742, المدينة التعليمية, الريان, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Education+City+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Khalifa International Stadium": {
+    "lat": 25.2636512,
+    "lon": 51.449225,
+    "display_name": "ستاد خليفة الدولي, Khalifa Stadium Parking, بعيا, محيرجة, الريان, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Khalifa+International+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Lusail Stadium": {
+    "lat": 25.420791,
+    "lon": 51.4903763,
+    "display_name": "استاد لوسيل, شارع 130, Inland Residential District, الضعاين, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Lusail+Stadium+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  },
+  "Stadium 974": {
+    "lat": 25.2887882,
+    "lon": 51.5663991,
+    "display_name": "استاد 974, شارع 207, حي الميناء, الشرق - الخليفات, الدوحة, قطر",
+    "source_url": "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=Stadium+974+Qatar",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+  }
+}

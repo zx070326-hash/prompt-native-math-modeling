@@ -1,0 +1,6 @@
+indicator_name,indicator_category,actual_schedule_value,optimized_schedule_value,absolute_difference,relative_improvement,preferred_direction,evaluation_result
+平均休息时间(h),schedule,96.75,143.125,46.375,0.479328165374677,higher,优化方案更优
+最短休息时间(h),schedule,96.0,63.0,-33.0,-0.34375,higher,实际方案更优/差异有限
+场馆利用率(场/场馆),schedule,6.0,4.5,-1.5,-0.25,target,实际方案更优/差异有限
+容量匹配(代理),schedule,0.9542210908262091,0.5840861146704126,-0.3701349761557965,-0.38789226072892224,higher,实际方案更优/差异有限
+黄金时段覆盖率(代理),schedule,0.0,0.3333333333333333,0.3333333333333333,,higher,优化方案更优

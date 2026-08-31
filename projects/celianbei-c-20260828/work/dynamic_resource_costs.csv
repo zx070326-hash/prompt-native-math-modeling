@@ -1,0 +1,11 @@
+﻿resource_type,resource_level,unit_cost_index,demand_multiplier,risk_multiplier,description
+broadcast,1,1,1.0,1.0,普通转播配置；不额外放大转播观看需求。
+broadcast,2,3,1.05,1.0,重点转播配置；转播制作与传播资源适度增加。
+broadcast,3,7,1.12,1.0,最高转播优先级；受每日 high_broadcast_capacity 限制。
+security,1,1,1.0,0.95,基础安保配置。
+security,2,3,1.0,0.8,增强安保配置。
+security,3,6,1.0,0.6,高等级安保配置；3级及以上受每日容量限制。
+security,4,10,1.0,0.4,最高等级安保配置；不得超过场馆 security_level。
+transport,1,1,1.0,1.0,基础交通接驳。
+transport,2,3,1.03,1.0,增强公共交通和接驳运力。
+transport,3,6,1.07,1.0,最高交通保障；受每日 enhanced_transport_capacity 限制。

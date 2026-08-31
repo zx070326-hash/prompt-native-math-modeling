@@ -1,0 +1,161 @@
+{
+  "fifa_source_url": "https://api.fifa.com/api/v3/calendar/matches?idSeason=255711&count=100&language=en",
+  "retrieval_date": "2026-08-30",
+  "actual_matches": 48,
+  "optimized_matches": 72,
+  "missing_team_attributes": [
+    "Cameroon",
+    "Costa Rica",
+    "Denmark",
+    "Poland",
+    "Serbia",
+    "Wales"
+  ],
+  "prime_threshold": 0.66,
+  "capacity_proxy": "maximum official FIFA attendance at each stadium across the tournament",
+  "risk_proxy_limitation": "Actual climate and security capability are unavailable in FIFA endpoint; fixed candidate medians isolate occupancy.",
+  "actual_schedule_output": "outputs\\actual_schedule_2022.csv",
+  "comparison_output": "outputs\\result_4_schedule_comparison.csv",
+  "indicators": [
+    {
+      "indicator_name": "avg_travel_km_per_transition",
+      "indicator_category": "travel",
+      "actual_schedule_value": 18.98907751,
+      "optimized_schedule_value": 2060.26041667,
+      "absolute_difference": 2041.27133915,
+      "relative_improvement": -107.49713027,
+      "preferred_direction": "lower",
+      "evaluation_result": "实际赛程更优"
+    },
+    {
+      "indicator_name": "avg_rest_hours",
+      "indicator_category": "rest",
+      "actual_schedule_value": 97.8125,
+      "optimized_schedule_value": 175.1875,
+      "absolute_difference": 77.375,
+      "relative_improvement": 0.79105431,
+      "preferred_direction": "higher",
+      "evaluation_result": "优化方案更优"
+    },
+    {
+      "indicator_name": "timezone_crossings_per_team",
+      "indicator_category": "travel",
+      "actual_schedule_value": 0.0,
+      "optimized_schedule_value": 1.70833333,
+      "absolute_difference": 1.70833333,
+      "relative_improvement": NaN,
+      "preferred_direction": "lower",
+      "evaluation_result": "实际赛程更优"
+    },
+    {
+      "indicator_name": "venue_load_cv",
+      "indicator_category": "venue_use",
+      "actual_schedule_value": 0.0,
+      "optimized_schedule_value": 0.63828474,
+      "absolute_difference": 0.63828474,
+      "relative_improvement": NaN,
+      "preferred_direction": "lower",
+      "evaluation_result": "实际赛程更优"
+    },
+    {
+      "indicator_name": "mean_capacity_fill_rate",
+      "indicator_category": "capacity_match",
+      "actual_schedule_value": 0.96211634,
+      "optimized_schedule_value": 0.6102125,
+      "absolute_difference": -0.35190384,
+      "relative_improvement": -3.66523823,
+      "preferred_direction": "target",
+      "evaluation_result": "实际赛程更优（目标=0.9）"
+    },
+    {
+      "indicator_name": "global_prime_match_share",
+      "indicator_category": "broadcast",
+      "actual_schedule_value": 0.66666667,
+      "optimized_schedule_value": 0.625,
+      "absolute_difference": -0.04166667,
+      "relative_improvement": -0.0625,
+      "preferred_direction": "higher",
+      "evaluation_result": "实际赛程更优"
+    },
+    {
+      "indicator_name": "attendance_per_match",
+      "indicator_category": "audience",
+      "actual_schedule_value": 51188.72916667,
+      "optimized_schedule_value": 41746.41666667,
+      "absolute_difference": -9442.3125,
+      "relative_improvement": -0.18446077,
+      "preferred_direction": "higher",
+      "evaluation_result": "实际赛程更优"
+    },
+    {
+      "indicator_name": "ticket_revenue_usd_per_match",
+      "indicator_category": "commercial",
+      "actual_schedule_value": 4869992.39583333,
+      "optimized_schedule_value": 3970978.75,
+      "absolute_difference": -899013.64583333,
+      "relative_improvement": -0.18460268,
+      "preferred_direction": "higher",
+      "evaluation_result": "实际赛程更优"
+    },
+    {
+      "indicator_name": "broadcast_value_usd_per_match",
+      "indicator_category": "commercial",
+      "actual_schedule_value": 4019003.9593068,
+      "optimized_schedule_value": 4666641.83611111,
+      "absolute_difference": 647637.87680431,
+      "relative_improvement": 0.16114388,
+      "preferred_direction": "higher",
+      "evaluation_result": "优化方案更优"
+    },
+    {
+      "indicator_name": "fairness_penalty",
+      "indicator_category": "fairness",
+      "actual_schedule_value": 0.83333333,
+      "optimized_schedule_value": 0.16666667,
+      "absolute_difference": -0.66666667,
+      "relative_improvement": 0.8,
+      "preferred_direction": "lower",
+      "evaluation_result": "优化方案更优"
+    },
+    {
+      "indicator_name": "execution_risk_proxy",
+      "indicator_category": "risk",
+      "actual_schedule_value": 0.49946823,
+      "optimized_schedule_value": 0.41477674,
+      "absolute_difference": -0.0846915,
+      "relative_improvement": 0.16956333,
+      "preferred_direction": "lower",
+      "evaluation_result": "优化方案更优"
+    }
+  ],
+  "weighted_q2_audit": "logs/q4_weighted_audit.json",
+  "weighted_scores": {
+    "actual": 0.1771010459692012,
+    "optimized": 0.1916250467167847
+  },
+  "weighted_score_sensitivity": {
+    "scenario_count": 81,
+    "frozen_bounds": true,
+    "optimized_minus_actual_range": [
+      -0.04047952378499578,
+      0.04542278770447991
+    ],
+    "ranking_flips_within_grid": true,
+    "minimum_difference_scenario": {
+      "cost_multiplier": 0.75,
+      "attractiveness_shift": 0.08,
+      "risk_shift": -0.1,
+      "actual_travel_speed_kmh": 80.0,
+      "actual_score": 0.2321045705017805,
+      "optimized_minus_actual": -0.04047952378499578
+    },
+    "maximum_difference_scenario": {
+      "cost_multiplier": 1.25,
+      "attractiveness_shift": -0.08,
+      "risk_shift": 0.1,
+      "actual_travel_speed_kmh": 40.0,
+      "actual_score": 0.1462022590123048,
+      "optimized_minus_actual": 0.04542278770447991
+    }
+  }
+}

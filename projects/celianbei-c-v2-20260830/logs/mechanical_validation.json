@@ -1,0 +1,794 @@
+{
+  "passed": true,
+  "failures": [],
+  "checks": [
+    {
+      "check": "exists:result_1_test_prediction.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "header:result_1_test_prediction.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rows:result_1_test_prediction.csv",
+      "passed": true,
+      "detail": "expected 140, got 140"
+    },
+    {
+      "check": "no_inf:result_1_test_prediction.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exists:result_1_match_prediction.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "header:result_1_match_prediction.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rows:result_1_match_prediction.csv",
+      "passed": true,
+      "detail": "expected 72, got 72"
+    },
+    {
+      "check": "no_inf:result_1_match_prediction.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exists:result_2_group_schedule.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "header:result_2_group_schedule.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rows:result_2_group_schedule.csv",
+      "passed": true,
+      "detail": "expected 72, got 72"
+    },
+    {
+      "check": "no_inf:result_2_group_schedule.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exists:result_3_dynamic_strategy.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "header:result_3_dynamic_strategy.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rows:result_3_dynamic_strategy.csv",
+      "passed": true,
+      "detail": "expected 24, got 24"
+    },
+    {
+      "check": "no_inf:result_3_dynamic_strategy.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exists:actual_schedule_2022.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "header:actual_schedule_2022.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rows:actual_schedule_2022.csv",
+      "passed": true,
+      "detail": "expected 48, got 48"
+    },
+    {
+      "check": "no_inf:actual_schedule_2022.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exists:result_4_schedule_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "header:result_4_schedule_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "rows:result_4_schedule_comparison.csv",
+      "passed": true,
+      "detail": "expected 11, got 11"
+    },
+    {
+      "check": "no_inf:result_4_schedule_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q1_test_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q1_test_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q1_match_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q1_match_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_match_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_venue_utc_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_security_eligibility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_city_country",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_broadcast_capacity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_venue_totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_venue_day",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Algeria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Argentina",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Australia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Austria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Belgium",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Bosnia and Herzegovina",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Brazil",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Canada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Cape Verde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Colombia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Croatia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Curacao",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Czechia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:DR Congo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Ecuador",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Egypt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:England",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:France",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Germany",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Ghana",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Haiti",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Iran",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Iraq",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Ivory Coast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Japan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Jordan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Mexico",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Morocco",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Netherlands",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:New Zealand",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Norway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Panama",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Paraguay",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Portugal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Qatar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Saudi Arabia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Scotland",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Senegal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:South Africa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:South Korea",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Spain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Sweden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Switzerland",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Tunisia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Turkey",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:United States",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Uruguay",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_rounds:Uzbekistan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_min_rest",
+      "passed": true,
+      "detail": "min=81.0"
+    },
+    {
+      "check": "q2_prime_fairness",
+      "passed": true,
+      "detail": "range=1-2"
+    },
+    {
+      "check": "q2_objective_first_only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_official_objective_formula",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_risk_uses_raw_unit_interval",
+      "passed": true,
+      "detail": "metric=0.41477671275859535, csv_mean=0.41477673611111116"
+    },
+    {
+      "check": "q2_complete_cost",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_setup_cost_constant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q2_explicit_rest_constraints",
+      "passed": true,
+      "detail": "count=96"
+    },
+    {
+      "check": "q2_gap_scope_disclosed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_match_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_unit_interval:updated_p_team_a_advance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_unit_interval:updated_p_team_b_advance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_unit_interval:stakeless_risk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_unit_interval:collusion_risk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_unit_interval:updated_attractiveness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_security_bounds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_broadcast_cap:2026-06-26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_security_cap:2026-06-26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_transport_cap:2026-06-26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_budget:2026-06-26",
+      "passed": true,
+      "detail": "74/100.0"
+    },
+    {
+      "check": "q3_broadcast_cap:2026-06-27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_security_cap:2026-06-27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_transport_cap:2026-06-27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_budget:2026-06-27",
+      "passed": true,
+      "detail": "77/120.0"
+    },
+    {
+      "check": "q3_broadcast_cap:2026-06-28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_security_cap:2026-06-28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_transport_cap:2026-06-28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_budget:2026-06-28",
+      "passed": true,
+      "detail": "90/120.0"
+    },
+    {
+      "check": "q3_broadcast_cap:2026-06-29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_security_cap:2026-06-29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_transport_cap:2026-06-29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_budget:2026-06-29",
+      "passed": true,
+      "detail": "68/100.0"
+    },
+    {
+      "check": "q3_broadcast_cap:2026-06-30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_security_cap:2026-06-30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_transport_cap:2026-06-30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_budget:2026-06-30",
+      "passed": true,
+      "detail": "44/100.0"
+    },
+    {
+      "check": "q3_dynamic_not_worse_total",
+      "passed": true,
+      "detail": "7.1758725/7.16062823"
+    },
+    {
+      "check": "q3_attractiveness_raw_bounds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_risk_raw_bounds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q3_official_normalization_contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_actual_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_eleven_diagnostics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_eight_official_indicators",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_official_weights",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_weighted_score:actual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_weighted_score:optimized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_proxy_sensitivity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "q4_common_bounds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_source_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_q4_indicator_set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_q4_row:avg_travel_km_per_transition",
+      "passed": true,
+      "detail": "平均每次转场距离/km & 18.9891 & 2060.2604 & 实际\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:avg_rest_hours",
+      "passed": true,
+      "detail": "平均休息/h & 97.8125 & 175.1875 & 优化\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:timezone_crossings_per_team",
+      "passed": true,
+      "detail": "每队跨时区次数 & 0.000000 & 1.708333 & 实际\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:venue_load_cv",
+      "passed": true,
+      "detail": "场馆负荷变异系数 & 0.00000000 & 0.63828474 & 实际\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:mean_capacity_fill_rate",
+      "passed": true,
+      "detail": "平均容量匹配率 & 0.96211634 & 0.61021250 & 实际（目标0.90）\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:global_prime_match_share",
+      "passed": true,
+      "detail": "黄金时段比赛占比 & 0.66666667 & 0.62500000 & 实际\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:attendance_per_match",
+      "passed": true,
+      "detail": "每场观众 & 51,188.73 & 41,746.42 & 实际\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:ticket_revenue_usd_per_match",
+      "passed": true,
+      "detail": "每场票务价值/美元 & 4,869,992.40 & 3,970,978.75 & 实际\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:broadcast_value_usd_per_match",
+      "passed": true,
+      "detail": "每场转播价值/美元 & 4,019,003.96 & 4,666,641.84 & 优化\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:fairness_penalty",
+      "passed": true,
+      "detail": "公平性惩罚 & 0.83333333 & 0.16666667 & 优化\\\\"
+    },
+    {
+      "check": "manuscript_q4_row:execution_risk_proxy",
+      "passed": true,
+      "detail": "执行风险代理 & 0.49946823 & 0.41477674 & 优化\\\\"
+    },
+    {
+      "check": "manuscript_bibliography_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:breiman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:dixon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:fifaapi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:fifasec",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:highs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:nominatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:openstax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_first_use_citation:ross",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "formal_ai_pdf_exists",
+      "passed": true,
+      "detail": "outputs\\pdf\\AI 工具使用详情.pdf"
+    },
+    {
+      "check": "legacy_ai_pdf_absent",
+      "passed": true,
+      "detail": "outputs\\pdf\\AI工具使用详情.pdf"
+    }
+  ],
+  "output_sha256": {
+    "result_1_test_prediction.csv": "20748faac711a0b8628190ea50f77999385cab2e3e3d353698ff4a43fe99d6ff",
+    "result_1_match_prediction.csv": "f9b79cc577572e9710bbe086196c47f23fc5562bb8ae7581ae28d42045e8d287",
+    "result_2_group_schedule.csv": "32448ca3582601144bdca2bd90e99fe9fb211868e34990db07b9c17e82868615",
+    "result_3_dynamic_strategy.csv": "9423d24f416d580b8c62699420e7e2e8d595b6bba8331794e9fee0492bb170b5",
+    "actual_schedule_2022.csv": "a87af4277f6f81c7cacbc7256a895230e4c7a63a06b55ff0622704c482903806",
+    "result_4_schedule_comparison.csv": "862ccb6f2089bbd88b6f6921c546ba95ca46f98cc1400a2eb8eae31572cf829e"
+  }
+}

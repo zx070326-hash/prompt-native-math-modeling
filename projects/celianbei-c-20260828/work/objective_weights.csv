@@ -1,0 +1,14 @@
+﻿problem_id,indicator_name,direction,weight,normalization_method,data_source,explanation
+P2,ticket_revenue,maximize,0.25,全部候选组合 min-max,result_1、ticket_broadcast、venues,预计票务收入。
+P2,broadcast_value,maximize,0.25,全部候选组合 min-max,result_1、ticket_broadcast、time_slots,预计转播商业价值。
+P2,uncertainty_index,maximize,0.15,原值0-1,base_predictions,竞技悬念，数值越大比赛越难预测。
+P2,attractiveness_index,maximize,0.1,除以100,base_predictions,比赛吸引力和关注度。
+P2,operation_cost,minimize,0.08,全部候选组合 min-max,venues,场馆启用、运营和安保成本。
+P2,travel_burden,minimize,0.07,全部候选组合 min-max,distance_matrix,旅行距离、时间和时区差形成的负担。
+P2,fairness_penalty,minimize,0.06,方案内 min-max,赛程结果计算,0.5×黄金时段次数极差/3 + 0.5×大容量场馆次数极差/3
+P2,execution_risk,minimize,0.04,原值或组合值0-1,venues、security_requirements,气候、安保与执行风险。
+P3,updated_ticket_value,maximize,0.35,第三轮候选决策 min-max,更新预测、ticket_broadcast,动态票价和预计上座形成的票务价值。
+P3,updated_broadcast_value,maximize,0.35,第三轮候选决策 min-max,更新预测、dynamic_resource_costs,更新转播需求与转播等级形成的价值。
+P3,updated_attractiveness,maximize,0.1,除以100,动态更新模型,第三轮更新后的比赛吸引力。
+P3,resource_cost,minimize,0.1,第三轮候选决策 min-max,dynamic_resource_costs,转播、安保和交通资源成本指数。
+P3,risk_exposure,minimize,0.1,原值0-1,stakeless_risk、collusion_risk、security_requirements、dynamic_resource_costs,由竞技动机风险与资源配置后的剩余运营安保风险共同构成。

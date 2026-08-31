@@ -1,0 +1,10 @@
+{
+  "status": "READY | CONTINUE | BLOCKED",
+  "user_request_met": false,
+  "claim_checks": [],
+  "reproducibility_scope": "",
+  "limitations": [],
+  "remaining_uncertainties": [],
+  "next_action_if_continue": "",
+  "blocking_authority_or_resource": ""
+}

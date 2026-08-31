@@ -1,0 +1,7 @@
+{
+  "seed": 20260828,
+  "input_xlsx": "D:\\prompt-native-math-modeling\\prompt-native-v2\\projects\\celianbei-c-20260828\\input\\official-attachments\\2026年度“策联杯”数学建模精英联赛-C题-附件\\input_data\\C题_数据附件.xlsx",
+  "input_sha256": "23eecb09565bb064da8e4753933b88fe9d882d3b92f0c23574bb2aebdc530907",
+  "run_utc": "2026-08-28T15:04:07.241408Z",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]"
+}

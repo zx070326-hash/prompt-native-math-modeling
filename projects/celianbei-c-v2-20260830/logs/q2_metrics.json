@@ -1,0 +1,76 @@
+{
+  "solver_status": 1,
+  "solver_message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "mip_gap": 0.030569668960824498,
+  "mip_node_count": 796,
+  "candidate_rows": 21420,
+  "constraint_rows": 1642,
+  "explicit_rest_constraints": 96,
+  "violations": [],
+  "min_rest_hours": 81.0,
+  "prime_count_range": [
+    1,
+    2
+  ],
+  "big_venue_count_range": [
+    1,
+    1
+  ],
+  "venue_total_range": [
+    2,
+    8
+  ],
+  "indicators_normalized": {
+    "T": 0.3746114435923284,
+    "B": 0.49577176209482743,
+    "U": 0.4614361111111111,
+    "H": 0.6396986111111111,
+    "C": 0.43583937198067635,
+    "D": 0.1994066394521853,
+    "F": 0.16666666666666666,
+    "R": 0.41477671275859535
+  },
+  "objective_value": 0.2753643961691159,
+  "total_ticket_revenue_usd": 285910470.0,
+  "total_broadcast_value_usd": 335998212.1685165,
+  "total_setup_cost_musd": 17.950000000000003,
+  "total_match_cost_musd": 34.955000000000005,
+  "total_complete_cost_musd": 52.90500000000001,
+  "normalization_contract": {
+    "ticket_revenue": "all feasible candidates Min-Max",
+    "broadcast_value": "all feasible candidates Min-Max",
+    "operation_cost": "complete cost equivalent including constant setup allocation, all feasible candidates Min-Max",
+    "travel_burden": "all feasible candidates Min-Max",
+    "execution_risk": "official bounded raw value in [0,1]; no second Min-Max"
+  },
+  "candidate_scope": "round-date-prefiltered MILP; reported gap does not bound the unrestricted problem",
+  "output": "outputs\\result_2_group_schedule.csv",
+  "prime_slot_ids": [
+    "S021",
+    "S024",
+    "S031",
+    "S034",
+    "S051",
+    "S064",
+    "S081",
+    "S094",
+    "S104",
+    "S114",
+    "S121",
+    "S131",
+    "S134",
+    "S141",
+    "S151",
+    "S164",
+    "S171",
+    "S184",
+    "S191",
+    "S204"
+  ],
+  "big_venue_ids": [
+    "V03",
+    "V06",
+    "V08",
+    "V11"
+  ]
+}

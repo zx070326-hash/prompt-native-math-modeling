@@ -1,0 +1,12 @@
+﻿indicator_name,indicator_category,actual_schedule_value,optimized_schedule_value,absolute_difference,relative_improvement,preferred_direction,evaluation_result
+avg_travel_km_per_transition,travel,18.98907751,2060.26041667,2041.27133915,-107.49713027,lower,实际赛程更优
+avg_rest_hours,rest,97.8125,175.1875,77.375,0.79105431,higher,优化方案更优
+timezone_crossings_per_team,travel,0.0,1.70833333,1.70833333,,lower,实际赛程更优
+venue_load_cv,venue_use,0.0,0.63828474,0.63828474,,lower,实际赛程更优
+mean_capacity_fill_rate,capacity_match,0.96211634,0.6102125,-0.35190384,-3.66523823,target,实际赛程更优（目标=0.9）
+global_prime_match_share,broadcast,0.66666667,0.625,-0.04166667,-0.0625,higher,实际赛程更优
+attendance_per_match,audience,51188.72916667,41746.41666667,-9442.3125,-0.18446077,higher,实际赛程更优
+ticket_revenue_usd_per_match,commercial,4869992.39583333,3970978.75,-899013.64583333,-0.18460268,higher,实际赛程更优
+broadcast_value_usd_per_match,commercial,4019003.9593068,4666641.83611111,647637.87680431,0.16114388,higher,优化方案更优
+fairness_penalty,fairness,0.83333333,0.16666667,-0.66666667,0.8,lower,优化方案更优
+execution_risk_proxy,risk,0.49946823,0.41477674,-0.0846915,0.16956333,lower,优化方案更优

@@ -1,0 +1,910 @@
+{
+  "q1": {
+    "n_train": 560,
+    "n_test": 140,
+    "validation_cut": 448,
+    "scores": [
+      {
+        "model": "extra_trees",
+        "mse_million": 199.2647799727409,
+        "mae_million": 11.4319796580136,
+        "r2": 0.6750947396106349
+      },
+      {
+        "model": "random_forest",
+        "mse_million": 228.854281891128,
+        "mae_million": 12.17077949955196,
+        "r2": 0.6268484573177966
+      },
+      {
+        "model": "gradient_boosting",
+        "mse_million": 203.30905584754095,
+        "mae_million": 11.645226007880009,
+        "r2": 0.6685004658690932
+      }
+    ],
+    "selected_model": "extra_trees",
+    "target_unit": "million viewers"
+  },
+  "q2": {
+    "objective_value": 21.58206687288285,
+    "checks": {
+      "match_count": 72,
+      "unique_match_ids": true,
+      "venue_slot_conflicts": 0,
+      "min_team_rest_hours": 63.0,
+      "rest_ge_60": true,
+      "daily_venue_max_violation": 0,
+      "venue_total_min_violation": 0,
+      "venue_total_max_violation": 0,
+      "gold_count_range": 2,
+      "large_count_range": 3,
+      "fairness_rule": true,
+      "third_round_security_daily_violation": 0
+    },
+    "venue_counts": {
+      "V01": 6,
+      "V02": 8,
+      "V03": 8,
+      "V04": 2,
+      "V05": 2,
+      "V06": 5,
+      "V07": 2,
+      "V08": 8,
+      "V09": 5,
+      "V10": 2,
+      "V11": 8,
+      "V12": 8,
+      "V13": 2,
+      "V14": 2,
+      "V15": 2,
+      "V16": 2
+    },
+    "gold_counts": {
+      "Senegal": 1,
+      "Bosnia and Herzegovina": 3,
+      "Cape Verde": 2,
+      "Saudi Arabia": 2,
+      "Brazil": 3,
+      "France": 1,
+      "Egypt": 3,
+      "Ghana": 1,
+      "Haiti": 3,
+      "Qatar": 3,
+      "Switzerland": 3,
+      "Iraq": 1,
+      "Uzbekistan": 1,
+      "Curacao": 3,
+      "Mexico": 3,
+      "Panama": 1,
+      "Austria": 1,
+      "England": 1,
+      "Ivory Coast": 3,
+      "Iran": 3,
+      "Ecuador": 3,
+      "New Zealand": 3,
+      "United States": 3,
+      "Australia": 3,
+      "Spain": 3,
+      "Tunisia": 3,
+      "Czechia": 3,
+      "South Korea": 3,
+      "Netherlands": 3,
+      "Turkey": 3,
+      "Canada": 3,
+      "Croatia": 1,
+      "Scotland": 3,
+      "Jordan": 1,
+      "Argentina": 1,
+      "Germany": 3,
+      "Algeria": 1,
+      "South Africa": 3,
+      "DR Congo": 1,
+      "Uruguay": 1,
+      "Paraguay": 3,
+      "Sweden": 3,
+      "Portugal": 1,
+      "Morocco": 3,
+      "Belgium": 3,
+      "Colombia": 1,
+      "Norway": 1,
+      "Japan": 3
+    },
+    "large_counts": {
+      "Senegal": 2,
+      "Bosnia and Herzegovina": 0,
+      "Cape Verde": 1,
+      "Saudi Arabia": 0,
+      "Brazil": 2,
+      "France": 0,
+      "Egypt": 1,
+      "Ghana": 1,
+      "Haiti": 0,
+      "Qatar": 1,
+      "Switzerland": 1,
+      "Iraq": 1,
+      "Uzbekistan": 0,
+      "Curacao": 0,
+      "Mexico": 2,
+      "Panama": 2,
+      "Austria": 1,
+      "England": 1,
+      "Ivory Coast": 0,
+      "Iran": 2,
+      "Ecuador": 1,
+      "New Zealand": 3,
+      "United States": 2,
+      "Australia": 3,
+      "Spain": 0,
+      "Tunisia": 2,
+      "Czechia": 2,
+      "South Korea": 1,
+      "Netherlands": 1,
+      "Turkey": 2,
+      "Canada": 0,
+      "Croatia": 2,
+      "Scotland": 1,
+      "Jordan": 1,
+      "Argentina": 2,
+      "Germany": 1,
+      "Algeria": 0,
+      "South Africa": 1,
+      "DR Congo": 1,
+      "Uruguay": 1,
+      "Paraguay": 3,
+      "Sweden": 3,
+      "Portugal": 0,
+      "Morocco": 1,
+      "Belgium": 2,
+      "Colombia": 1,
+      "Norway": 1,
+      "Japan": 2
+    },
+    "candidate_bounds": {
+      "ticket": [
+        2503120.0,
+        6421470.0
+      ],
+      "broadcast": [
+        1454455.6401404273,
+        8388331.838765833
+      ],
+      "cost": [
+        1.1549999999999998,
+        2.145
+      ],
+      "travel": [
+        752.0519999999999,
+        6300.094999999999
+      ],
+      "risk": [
+        0.22470909090909091,
+        0.6004015934040483
+      ]
+    }
+  },
+  "q3_simulation": {
+    "n_simulations": 20000,
+    "advance_probability_min": 0.0,
+    "advance_probability_max": 1.0,
+    "mean_advance_probability": 0.6666666666666666
+  },
+  "q3_candidate_levels": {
+    "GA05": {
+      "date": "2026-06-23",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2,
+        3,
+        4
+      ]
+    },
+    "GA06": {
+      "date": "2026-06-23",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2,
+        3
+      ]
+    },
+    "GB05": {
+      "date": "2026-06-28",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3
+      ]
+    },
+    "GB06": {
+      "date": "2026-06-28",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3
+      ]
+    },
+    "GC05": {
+      "date": "2026-06-28",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2,
+        3,
+        4
+      ]
+    },
+    "GC06": {
+      "date": "2026-06-29",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        1,
+        2,
+        3
+      ]
+    },
+    "GD05": {
+      "date": "2026-06-24",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3
+      ]
+    },
+    "GD06": {
+      "date": "2026-06-24",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3,
+        4
+      ]
+    },
+    "GE05": {
+      "date": "2026-06-29",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3,
+        4
+      ]
+    },
+    "GE06": {
+      "date": "2026-06-24",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2,
+        3
+      ]
+    },
+    "GF05": {
+      "date": "2026-06-23",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2,
+        3
+      ]
+    },
+    "GF06": {
+      "date": "2026-06-23",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        4
+      ]
+    },
+    "GG05": {
+      "date": "2026-06-23",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2
+      ]
+    },
+    "GG06": {
+      "date": "2026-06-23",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3,
+        4
+      ]
+    },
+    "GH05": {
+      "date": "2026-06-29",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        4
+      ]
+    },
+    "GH06": {
+      "date": "2026-06-27",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3
+      ]
+    },
+    "GI05": {
+      "date": "2026-06-27",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3
+      ]
+    },
+    "GI06": {
+      "date": "2026-06-27",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2
+      ]
+    },
+    "GJ05": {
+      "date": "2026-06-25",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "GJ06": {
+      "date": "2026-06-25",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3
+      ]
+    },
+    "GK05": {
+      "date": "2026-06-25",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        3,
+        4
+      ]
+    },
+    "GK06": {
+      "date": "2026-06-26",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2,
+        3
+      ]
+    },
+    "GL05": {
+      "date": "2026-06-26",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "GL06": {
+      "date": "2026-06-26",
+      "broadcast": [
+        1,
+        2,
+        3
+      ],
+      "transport": [
+        1,
+        2,
+        3
+      ],
+      "security": [
+        2
+      ]
+    }
+  },
+  "q3_selected_levels": {
+    "GA05": {
+      "date": "2026-06-23",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 2,
+      "cost": 13.0
+    },
+    "GA06": {
+      "date": "2026-06-23",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 2,
+      "cost": 13.0
+    },
+    "GB05": {
+      "date": "2026-06-28",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GB06": {
+      "date": "2026-06-28",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GC05": {
+      "date": "2026-06-28",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 3,
+      "cost": 16.0
+    },
+    "GC06": {
+      "date": "2026-06-29",
+      "broadcast": 3,
+      "security": 1,
+      "transport": 3,
+      "cost": 14.0
+    },
+    "GD05": {
+      "date": "2026-06-24",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GD06": {
+      "date": "2026-06-24",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GE05": {
+      "date": "2026-06-29",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GE06": {
+      "date": "2026-06-24",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 3,
+      "cost": 16.0
+    },
+    "GF05": {
+      "date": "2026-06-23",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 3,
+      "cost": 16.0
+    },
+    "GF06": {
+      "date": "2026-06-23",
+      "broadcast": 3,
+      "security": 4,
+      "transport": 3,
+      "cost": 23.0
+    },
+    "GG05": {
+      "date": "2026-06-23",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 2,
+      "cost": 13.0
+    },
+    "GG06": {
+      "date": "2026-06-23",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GH05": {
+      "date": "2026-06-29",
+      "broadcast": 3,
+      "security": 4,
+      "transport": 3,
+      "cost": 23.0
+    },
+    "GH06": {
+      "date": "2026-06-27",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GI05": {
+      "date": "2026-06-27",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GI06": {
+      "date": "2026-06-27",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 3,
+      "cost": 16.0
+    },
+    "GJ05": {
+      "date": "2026-06-25",
+      "broadcast": 3,
+      "security": 1,
+      "transport": 2,
+      "cost": 11.0
+    },
+    "GJ06": {
+      "date": "2026-06-25",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GK05": {
+      "date": "2026-06-25",
+      "broadcast": 3,
+      "security": 3,
+      "transport": 3,
+      "cost": 19.0
+    },
+    "GK06": {
+      "date": "2026-06-26",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 3,
+      "cost": 16.0
+    },
+    "GL05": {
+      "date": "2026-06-26",
+      "broadcast": 3,
+      "security": 1,
+      "transport": 1,
+      "cost": 9.0
+    },
+    "GL06": {
+      "date": "2026-06-26",
+      "broadcast": 3,
+      "security": 2,
+      "transport": 3,
+      "cost": 16.0
+    }
+  },
+  "q3_limit_debug": {
+    "2026-06-11": 3,
+    "2026-06-12": 3,
+    "2026-06-13": 4,
+    "2026-06-14": 4,
+    "2026-06-15": 3,
+    "2026-06-16": 3,
+    "2026-06-17": 3,
+    "2026-06-18": 3,
+    "2026-06-19": 3,
+    "2026-06-20": 4,
+    "2026-06-21": 4,
+    "2026-06-22": 3,
+    "2026-06-23": 3,
+    "2026-06-24": 3,
+    "2026-06-25": 3,
+    "2026-06-26": 3,
+    "2026-06-27": 4,
+    "2026-06-28": 4,
+    "2026-06-29": 3,
+    "2026-06-30": 3
+  },
+  "q3": {
+    "n_matches": 24,
+    "dynamic_total_net": 7.8831973567064075,
+    "static_total_net": 7.9678116373140755,
+    "mean_improvement_rate": 0.014460075739188442,
+    "normalization_bounds": {
+      "TV": [
+        2551169.514001872,
+        5696269.062232123
+      ],
+      "BV": [
+        5288106.562154582,
+        7490337.644003505
+      ],
+      "A": [
+        0.3461538112598257,
+        0.5277061119276394
+      ],
+      "C": [
+        3.0,
+        23.0
+      ],
+      "R": [
+        0.3325125547799768,
+        0.7436462877172756
+      ]
+    },
+    "resource_checks": {
+      "2026-06-23": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 3,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 3,
+        "budget": 85.0,
+        "budget_limit": 100.0
+      },
+      "2026-06-24": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 2,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 3,
+        "budget": 54.0,
+        "budget_limit": 100.0
+      },
+      "2026-06-25": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 2,
+        "enhanced_transport": 2,
+        "enhanced_transport_limit": 3,
+        "budget": 49.0,
+        "budget_limit": 100.0
+      },
+      "2026-06-26": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 0,
+        "high_security_limit": 2,
+        "enhanced_transport": 2,
+        "enhanced_transport_limit": 3,
+        "budget": 41.0,
+        "budget_limit": 100.0
+      },
+      "2026-06-27": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 4,
+        "high_security": 2,
+        "high_security_limit": 3,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 4,
+        "budget": 54.0,
+        "budget_limit": 120.0
+      },
+      "2026-06-28": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 4,
+        "high_security": 2,
+        "high_security_limit": 3,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 4,
+        "budget": 54.0,
+        "budget_limit": 120.0
+      },
+      "2026-06-29": {
+        "high_broadcast": 3,
+        "high_broadcast_limit": 3,
+        "high_security": 2,
+        "high_security_limit": 2,
+        "enhanced_transport": 3,
+        "enhanced_transport_limit": 3,
+        "budget": 56.0,
+        "budget_limit": 100.0
+      }
+    }
+  },
+  "q4": {
+    "source_url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+    "retrieval_date": "2026-08-28",
+    "actual_rows": 48,
+    "actual_metrics": {
+      "平均休息时间(h)": 96.75,
+      "最短休息时间(h)": 96.0,
+      "场馆利用率(场/场馆)": 6.0,
+      "容量匹配(代理)": 0.9542210908262091,
+      "黄金时段覆盖率(代理)": 0.0
+    },
+    "optimized_metrics": {
+      "平均休息时间(h)": 143.125,
+      "最短休息时间(h)": 63.0,
+      "场馆利用率(场/场馆)": 4.5,
+      "容量匹配(代理)": 0.5840861146704126,
+      "黄金时段覆盖率(代理)": 0.3333333333333333
+    }
+  },
+  "input_sha256": "23eecb09565bb064da8e4753933b88fe9d882d3b92f0c23574bb2aebdc530907"
+}

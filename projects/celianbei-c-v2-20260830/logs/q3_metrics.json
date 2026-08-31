@@ -1,0 +1,82 @@
+{
+  "seed": 20260830,
+  "simulations": 20000,
+  "advance_mass_min": 31.999998092651367,
+  "advance_mass_max": 32.0,
+  "team_probability_range": [
+    0.002662499900907278,
+    1.0
+  ],
+  "candidate_rows": 12546,
+  "normalization_bounds": {
+    "pre_ticket": [
+      3186564.596855678,
+      7161248.387336561
+    ],
+    "pre_bv": [
+      7912310.223999999,
+      11481964.69056
+    ],
+    "pre_A": [
+      0.0,
+      1.0
+    ],
+    "pre_R": [
+      0.0,
+      1.0
+    ],
+    "dyn_ticket": [
+      2743114.405519769,
+      6545765.052148703
+    ],
+    "dyn_bv": [
+      5108038.762539804,
+      8833512.939525427
+    ],
+    "dyn_A": [
+      0.0,
+      1.0
+    ],
+    "dyn_R": [
+      0.0,
+      1.0
+    ],
+    "cost": [
+      3.0,
+      23.0
+    ]
+  },
+  "normalization_contract": {
+    "ticket": "candidate-set Min-Max",
+    "broadcast": "candidate-set Min-Max",
+    "cost": "candidate-set Min-Max",
+    "attractiveness": "official raw [0,1]",
+    "risk": "official raw [0,1]"
+  },
+  "static_solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "gap": 0.0,
+    "nodes": 1
+  },
+  "dynamic_solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "gap": 0.0,
+    "nodes": 1
+  },
+  "static_total_evaluated_updated": 7.160628213353919,
+  "dynamic_total": 7.17587249325085,
+  "total_improvement_rate": 0.0021289025826674484,
+  "mean_attendance_static_updated": 36337.72717354392,
+  "mean_attendance_dynamic": 36124.833774707346,
+  "ticket_value_static_updated": 113199287.691024,
+  "ticket_value_dynamic": 112536082.17496832,
+  "broadcast_value_static_updated": 166929088.18565565,
+  "broadcast_value_dynamic": 167049223.22395483,
+  "risk_static_updated": 0.4678295359624884,
+  "risk_dynamic": 0.4678295359624884,
+  "resource_cost_static": 366.0,
+  "resource_cost_dynamic": 353.0,
+  "output": "outputs\\result_3_dynamic_strategy.csv"
+}
